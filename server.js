@@ -2,6 +2,7 @@
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
+const uri = process.env.MONGODB_URI;
 
 //create port
 const PORT = process.env.PORT || 3000;
